@@ -1,0 +1,80 @@
+body {
+    background-color: #f4f4f4; /* Light gray background */
+    font-family: Arial, sans-serif; /* Sans-serif font for better readability */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+.heading {
+    color: #333; /* Text color */
+    font-family: Arial, sans-serif; /* Font family */
+    font-size: 24px; /* Font size */
+    text-align: center; /* Text alignment */
+    margin-top: 50px; /* Margin from the top */
+    text-transform: uppercase; /* Convert text to uppercase */
+    letter-spacing: 2px; /* Letter spacing */
+    text-shadow: 2px 2px 4px rgba(235, 157, 0, 0.3); /* Text shadow */
+}
+.heading1 {
+    color: #333; /* Text color */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Font family */
+    font-size: 23px; /* Font size */
+    text-align: center; /* Text alignment */
+    margin-top: 50px; /* Margin from the top */
+    text-transform: uppercase; /* Convert text to uppercase */
+    letter-spacing: 2px; /* Letter spacing */
+    text-shadow: 2px 2px 4px rgba(255, 0, 238, 0.3); /* Text shadow */
+    font-weight: bold; /* Bold font */
+    font-style: italic; /* Italic font style */
+    text-decoration: none; /* Background color */
+     /* Box shadow */
+}
+
+
+
+.container {
+    background-color: #fff; /* White background for container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    margin: 50px auto; /* Center container horizontally */
+    max-width: 600px; /* Limit container width */
+    padding: 20px; /* Add padding inside container */
+    text-align: center; /* Center align text */
+    
+}
+
+h2, h3 {
+    color: #333; /* Dark gray text color for headings */
+}
+
+button {
+    background-color: #4CAF50; /* Green button */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Rounded button corners */
+    color: white; /* White text color */
+    cursor: pointer; /* Show pointer cursor on hover */
+    font-size: 16px; /* Increase font size */
+    padding: 10px 20px; /* Add padding */
+    margin: 2px 0; /* Add margin */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.container img {
+    margin-top: 20px; /* Add space between image and container */
+    max-width: 100%; /* Ensure image doesn't exceed container width */
+}
+ul{
+    display: inline-flexbox;
+    margin-left: 400px;
+
+}
+
+.one{
+    display: flex;
+}
+ul{
+    text-align: left;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leave Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div class="container">
+        <div class="psna" style="margin-right:20%;">
+            <img src="logoimg.png" height="120px" width="300px" alt="Logo Image">
+        </div> 
+    
+        <h2>Leave Application Form</h2>
+        <form action="https://formspree.io/f/xwkgrgng" method="post">
+            <label for="Student_name">Student Name:</label>
+            <input type="text" id="Student_name" name="Student_name" required>
+            <label for="student_email">Student Email:</label>
+            <input type="email" id="student_email" name="student_email" required>
+            <label for="register_number">Register Number:</label>
+            <input type="text" id="register_number" name="register_number" required>
+        
+            <label for="leave_type">Leave Type:</label>
+            <select id="leave_type" name="leave_type" required>
+                <option value="sick">Sick Leave</option>
+                <option value="On Duty">On Duty</option>
+                <option value="personal">Personal Leave</option>
+            </select>
+            
+            <label for="start_date">Start Date:</label>
+            <input type="date" id="start_date" name="start_date" required>
+            
+            <label for="end_date">End Date:</label>
+            <input type="date" id="end_date" name="end_date" required>
+            
+            <label for="reason">Reason:</label>
+            <textarea id="reason" name="reason" required></textarea>
+            <label for="number">Parents Number:</label>
+            <input type="text" id="number" name="number" required>
+            <div id="imageContainer"></div>
+           <!-- <input type="hidden" name="_replyto" value="deepalakshmig22it@psnacet.edu.in">-->
+            <button type="submit">Submit</button>
+                       
+             
+            </form>
+
+        </form>
+    </div>
+</body>
+</html>
